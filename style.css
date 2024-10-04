@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+.navbar {
+    display: flex;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    padding: 12px 30px;
+}
+a.text-deco {
+    text-decoration: none;
+    color: black;
+}
+ul.nav-ul {
+    display: flex;
+    list-style: none;
+    column-gap: 27px;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.nav-icon {
+    display: flex;
+    column-gap: 19px;
+    font-size: 21px;
+    padding-top: 15px;
+    margin-right: 21px;
+}
+.logo {
+    font-family: emoji;
+}
+.home-page {
+    display: flex;
+}
+.home-page {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+img.images {
+    height: 100%;
+    width: 100%;
+}
+video.images {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+section.home-sec {
+    padding-top: 80px;
+}
+.banner-text {
+    color: white;
+    position: absolute;
+    left: 13%;
+    font-size: 42px;
+    letter-spacing: 2px;
+    top: 50%;
+}
+
+.collection-heading {
+    padding: 0 15px;
+}
+.collection-heading h3 {
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    margin: 36px 0;
+}
+.collection-list {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.collection-list2 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.col-3.collection-item {
+    margin-right: 20px;
+    width: 373.25px;
+    position: relative;
+}
+.ptxt{
+    display: none;
+}
+.collection-item img:hover + .hovertxt {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(248, 228, 228, 0.664);
+    color: black;
+}
+.collection-item img:hover + .hovertxt .ptxt {
+    display: block;
+}
+.hovertxt {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
